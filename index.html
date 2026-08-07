@@ -500,31 +500,179 @@ footer .sub{ margin-top:16px; font-size:12px; color:var(--muted-2); }
   </div>
 </article>
 
-<article class="card" style="--d:0.35s" data-name="alan thomas">
-  <div class="card-top">
-    <div class="avatar" style="--c1:#818cf8;--c2:#06b6d4">AT</div>
-    <div class="card-id">
-      <h2>ALAN THOMAS</h2>
-      <span class="roll-tag">MCA &middot; Semester 7</span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile Card</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0d1b2a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.profile-card{
+    width:420px;
+    background:linear-gradient(180deg,#163b4d,#1c2742);
+    border-radius:25px;
+    padding:30px;
+    color:#fff;
+    border:1px solid rgba(255,255,255,.08);
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+
+.profile-header{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    margin-bottom:20px;
+}
+
+.avatar{
+    width:70px;
+    height:70px;
+    border-radius:18px;
+    background:linear-gradient(135deg,#30d5c8,#29b6f6);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    font-weight:700;
+    color:#08111f;
+}
+
+.profile-info h2{
+    font-size:28px;
+    font-weight:700;
+}
+
+.profile-info p{
+    color:#b8c5d4;
+    margin-top:5px;
+    font-size:15px;
+}
+
+.section{
+    border-top:1px solid rgba(255,255,255,.08);
+    padding:20px 0;
+}
+
+.section h3{
+    color:#FFC107;
+    font-size:15px;
+    margin-bottom:10px;
+    letter-spacing:1px;
+}
+
+.section p{
+    color:#edf2f7;
+    font-size:16px;
+    line-height:1.7;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+    margin-top:15px;
+}
+
+.btn{
+    flex:1;
+    text-align:center;
+    text-decoration:none;
+    padding:15px;
+    border-radius:14px;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.github{
+    background:#2d313a;
+    color:#fff;
+}
+
+.github:hover{
+    background:#3d434f;
+}
+
+.linkedin{
+    background:#0A66C2;
+    color:#fff;
+}
+
+.linkedin:hover{
+    background:#0c7ae6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="profile-card">
+
+    <div class="profile-header">
+        <div class="avatar">AT</div>
+
+        <div class="profile-info">
+            <h2>ALAN THOMAS</h2>
+            <p>Integrated MCA • Semester 7</p>
+        </div>
     </div>
-  </div>
-  <div class="field">
-    <svg class="ico"><use href="#i-about"/></svg>
-    <p><span class="label">About</span><span class="ph">Add your introduction</span></p>
-  </div>
-  <div class="field">
-    <svg class="ico"><use href="#i-skills"/></svg>
-    <p><span class="label">Skills</span><span class="ph">Add your skills</span></p>
-  </div>
-  <div class="field">
-    <svg class="ico"><use href="#i-link"/></svg>
-    <p><span class="label">Profile</span><span class="ph">Add GitHub / LinkedIn</span></p>
-  </div>
-  <div class="field">
-    <svg class="ico"><use href="#i-goal"/></svg>
-    <p><span class="label">Goal</span><span class="ph">Add career goal</span></p>
-  </div>
-</article>
+
+    <div class="section">
+        <h3>👤 ABOUT</h3>
+        <p>
+            Passionate MCA student with a strong interest in Full Stack Development,
+            UI/UX Design, and Creative Video Editing. I enjoy designing intuitive
+            user interfaces, developing responsive web applications, and creating
+            engaging visual content that combines creativity with technology.
+        </p>
+    </div>
+
+    <div class="section">
+        <h3>⭐ SKILLS</h3>
+        <p>
+            HTML, CSS, JavaScript, React.js, Node.js, Python, MySQL,
+            Git, Bootstrap, Tailwind CSS, UI/UX Design, Figma,
+            Adobe Premiere Pro, CapCut
+        </p>
+    </div>
+
+    <div class="section">
+        <h3>🎯 CAREER GOAL</h3>
+        <p>
+            To become a skilled Full Stack Developer and UI/UX Designer
+            while pursuing my passion for creative video editing. I aim
+            to build innovative digital experiences, design user-friendly
+            interfaces, and create high-quality visual content that
+            inspires and makes a meaningful impact.
+        </p>
+    </div>
+
+    <div class="buttons">
+        <a href="https://github.com/AlanslashDev" class="btn github" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/alan-thomas-6778012b4/" class="btn linkedin" target="_blank">LinkedIn</a>
+    </div>
+
+</div>
+
+</body>
+</html>
 
 <article class="card" style="--d:0.40s" data-name="albin biju p">
   <div class="card-top">
